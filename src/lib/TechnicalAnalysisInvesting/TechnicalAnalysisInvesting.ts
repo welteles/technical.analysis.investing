@@ -57,8 +57,7 @@ export class TechnicalAnalysisInvesting {
     ): Promise<TechnicalAnalysisInvestingResponse> {
         return this.httpRequest("/instruments/Service/GetTechincalData", {
             pairID: market,
-            period,
-            viewType: "normal",
+            period
         })
             .then((data) => {
                 const doc = new dom.DOMParser().parseFromString(data);
