@@ -2,7 +2,7 @@
   "name": "technical.analysis.investing",
   "version": "1.0.0",
   "description": "Technical Analysis Investing",
-  "main": "dist/lib/TechnicalAnalysisInvesting/TechnicalAnalysisInvesting.js",
+  "main": "dist/lib/index.js",
   "scripts": {
     "clean": "rimraf dist && rimraf coverage && rimraf .nyc_output && rimraf dist_test",
     "test": "jest --detectOpenHandles --forceExit",
