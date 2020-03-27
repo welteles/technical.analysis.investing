@@ -12,11 +12,12 @@
  */
 export enum TechnicalAnalysisInvestingMarket {
     EURUSD = 1,
-    GBPUSD = 2,
-    AUDUSD = 5,
     USDJPY = 3,
+    GBPUSD = 2,
+    USDCHF = 4,
+    AUDUSD = 5,
     EURGBP = 6,
     USDCAD = 7,
-    USDCHF = 4,
     NZDUSD = 8,
+    EURJPY = 9,
 }
